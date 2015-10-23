@@ -1,0 +1,15 @@
+﻿<Application
+	x:Class="DevApp.App"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:ax="using:Axinom.Toolkit"
+	RequestedTheme="Light">
+	<Application.Resources>
+		<SolidColorBrush x:Key="ClearContentLicenseStatusBrush" Color="White" />
+		<SolidColorBrush x:Key="HasValidLicenseLicenseStatusBrush" Color="LightGreen" />
+		<SolidColorBrush x:Key="WillAcquireReactivelyLicenseStatusBrush" Color="Yellow" />
+		<SolidColorBrush x:Key="MissingLicenseLicenseStatusBrush" Color="Red" />
+
+		<ax:VisibilityConverter x:Key="VisibilityConverter" />
+	</Application.Resources>
+</Application>
